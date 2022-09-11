@@ -23,15 +23,25 @@ flex-wrap: wrap;
 }
 
 .bouton{
-  padding-bottom: 70px;  
+padding-bottom: 50px;
+
 }
 
-ul{
+h4{
+    padding-top: 20px;
+padding-left: 20px;
+}
+
+.liste{
     background-color: white;
    box-shadow: 1px 1px 10px -6px;
     border-radius: 5px;
-    padding: 20px;
+}
+
+ul{
     list-style-image: url(/images/bullet.png);
+    padding: 20px;
+
 }
 
 #togg1, #togg2, #togg3{
@@ -46,8 +56,15 @@ ul{
         align-items: center;
         flex-wrap: wrap;    
     }
-    #togg1, #togg2, #togg3{
-        
+    
+  .bouton{
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }    
+  h4{
+  
+  }  
+
 
 }
 
@@ -60,7 +77,7 @@ ul{
     }
    
     }
-}
+
 
 
 @media (min-width: 750px) {}
