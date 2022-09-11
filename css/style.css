@@ -9,30 +9,33 @@ box-shadow: 1px 1px 10px -6px;
 
 .row{
 margin-top: 50px;
-margin-right: 50px;
+margin-right: px;
 padding-bottom: 3em;
 display: flex;
 flex-wrap: wrap;
+justify-content: space-around;
 }
 
 
 .column{
-   width: 700px;
+   width: 800px;
+ 
 }
 
 .bouton{
 padding-bottom: 50px;
+
 }
 
 h4{
     padding-top: 20px;
-padding-left: 20px;
 }
 
 .liste{
     background-color: white;
    box-shadow: 1px 1px 10px -6px;
     border-radius: 5px;
+    padding-left: 20px;
 }
 
 ul{
