@@ -5,23 +5,37 @@ body {
 .header {
   background-color: white;
   box-shadow: 1px 1px 10px -6px;
+  border-radius: 5px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  cursor: pointer;
 }
 
 .row {
   margin-top: 50px;
-  margin-right: px;
   padding-bottom: 3em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .column {
   width: 800px;
+  margin-top: 6em;
 }
 
 .bouton {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .titre {
@@ -32,6 +46,7 @@ h4 {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+  cursor: pointer;
 }
 
 .liste {
@@ -46,12 +61,11 @@ ul {
   padding-bottom: 20px;
 }
 
-#togg1,
-#togg2,
-#togg3 {
+.extension {
   border: none;
   color: black;
   font-size: 60%;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
