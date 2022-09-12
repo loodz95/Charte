@@ -1,5 +1,5 @@
 body {
-  background-color: #fcfcfc;
+  background-color: rgb(242, 245, 247);
 }
 
 .header {
@@ -26,7 +26,6 @@ h3 {
   margin-top: 50px;
   padding-bottom: 3em;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .column {
@@ -36,6 +35,7 @@ h3 {
 
 .bouton {
   padding-bottom: 0px;
+  padding-right: 130px;
 }
 
 .titre {
@@ -78,6 +78,7 @@ ul {
   .bouton {
     padding-top: 2em;
     padding-bottom: 1em;
+    padding-left: 7em;
   }
 }
 
